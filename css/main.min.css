@@ -568,8 +568,11 @@ img {
     width: 100%;
   }
 }
+.foto{
+    width: 250px;
+}
 .list-feature {
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
@@ -647,9 +650,6 @@ img {
 }
 .feature-section-item p {
   margin: 0;
-}
-.feature-section-item {
-  flex-basis: calc((100% - 90px) / 4);
 }
 .feature-section-list-title{
     font-style: normal;
